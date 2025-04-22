@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { addIssue, updateIssue } from './issue'; // Adjust path as per your project structure
-import { Modal, Button } from 'react-bootstrap';
+// import { Modal, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IssueForm = ({ handleClose, editId, editData }) => {

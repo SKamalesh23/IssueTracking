@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Form, Button, Container, Row, Col, Card } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import './login.css';
 
 const LoginForm = ({ handleClose }) => {
