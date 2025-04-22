@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Modal, Button } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux';
-import { logout } from './store1'; // Adjust the path based on your actual file structure
+// import { useDispatch} from 'react-redux';
 import './header.css';
 import './login.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,11 +13,10 @@ const Header1 = () => {
   // const info = useSelector((state) => state.infos.infos); // Ensure correct path to 'infos'
   // console.log("info-->", info);
 
-  const dispatch = useDispatch();
   const [showModal, setShowModal] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
 
-  const handleShow = () => setShowModal(true);
+  // const handleShow = () => setShowModal(true);
   const handleClose = () => setShowModal(false);
 
   const handleClick = () => {

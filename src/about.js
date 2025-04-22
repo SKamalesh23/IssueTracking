@@ -1,5 +1,4 @@
 import React from 'react';
-import s3 from'./IMAGES/img3.jpg';
 const AboutUs = () => {
     return (
         <div class="bk" style={{

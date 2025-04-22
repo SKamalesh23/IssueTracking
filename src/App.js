@@ -16,7 +16,6 @@ import AddUser from "./Adduser.js";
 import Manage from "./manage_issue.js";
 import IssueForm from "./issueForm.js";
 import IssueTable from "./details.js";
-import store1 from "./store1.js";
 import UserList from "./UserList.js";
 import Header2 from "./header2.js";
 import AboutUs from "./about.js";

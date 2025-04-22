@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './header.css';
 import 'bootstrap/dist/css/bootstrap.css';
 export default function Footer(){

@@ -1,8 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react'; // Import useState from React
 import { Link } from 'react-router-dom';
 import { Modal, Button } from 'react-bootstrap';
-import { useSelector, useDispatch } from 'react-redux';
-import { logout } from './store1'; // Adjust the path based on your actual file structure
+import { useSelector } from 'react-redux';
 import './header.css';
 import './login.css'; // Import the custom CSS for the modal
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,16 +14,15 @@ export default function Header() {
   // const isLoggedIn = useSelector(state => state.isLoggedIn);
   const buttonText=useSelector(state => state.buttonTexts);
   console.log(buttonText);
-  const dispatch = useDispatch();
   const [showModal, setShowModal] = useState(false);
 
   const handleShow = () => setShowModal(true);
   const handleClose = () => setShowModal(false);
 
-  const handleLogout = () => {
-    dispatch(logout()); // Dispatch the logout action
-    // Additional logout logic if needed (clear session storage, etc.)
-  };
+  // const handleLogout = () => {
+  //   dispatch(logout()); // Dispatch the logout action
+  //   // Additional logout logic if needed (clear session storage, etc.)
+  // };
 
   return (
     <>

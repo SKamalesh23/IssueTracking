@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './styl.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import s5 from './IMAGES/img2.jpg';
 
 function Main() {
 //   function Footer1() {

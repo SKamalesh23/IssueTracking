@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import SubmitIssueForm from './SubmitIssueForm.js';
+// import SubmitIssueForm from './SubmitIssueForm.js';
 import ChangeStatusModal from './ChangeStatusModal';
 import { deleteIssue } from './issue'; // Adjust the path based on your project structure
 import './image.css';
@@ -18,18 +18,13 @@ const Manage = () => {
     const [status, setStatus] = useState('');
 
     // State for hovered image
-    const [hoveredImage, setHoveredImage] = useState(null);
+    const [hoveredImage] = useState(null);
 
     const handleCloseModal = () => {
         setShowModal(false);
         setSelectedIssue(null);
     };
 
-    const handleStatusChange = (index) => {
-        setSelectedIssue(issues[index]);
-        setStatus(issues[index].status);
-        setShowModal(true);
-    };
 
     const handleSave = () => {
         if (selectedIssue !== null) {

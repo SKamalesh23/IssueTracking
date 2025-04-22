@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 // src/AdminDashboard.js
 import React from 'react';
 import './admin.css'; // Import the CSS file

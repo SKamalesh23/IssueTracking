@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useSelector } from 'react-redux';
-import IssueForm from './issueForm';
 
 const IssueTable1 = () => {
   const reports = useSelector(state => state.reports.reports); // Verify the state structure
-  const [showModal, setShowModal] = useState(false);
+  // const [showModal, setShowModal] = useState(false);
 
-  const handleShowModal = () => setShowModal(true);
-  const handleCloseModal = () => setShowModal(false);
+  // const handleShowModal = () => setShowModal(true);
+  // const handleCloseModal = () => setShowModal(false);
 
   console.log(reports); // Check the structure and contents of 'reports'
 
