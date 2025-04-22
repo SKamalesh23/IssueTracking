@@ -1,0 +1,127 @@
+/* header.css */
+.navbar {
+    background-color: #8c0c0c;
+    border: 0;
+    border-radius: 0;
+    position: fixed;
+    font-size: 14px;
+    letter-spacing: 2px; /* Slightly reduced for better readability */
+    font-family: 'Roboto', sans-serif; /* Use consistent font family */
+}
+.header{
+    /* position: fixed; */
+    width: 100%;
+}
+.navbar-brand {
+    font-size: 18px; /* Consistent font size for the brand name */
+    font-family: 'Jacques Francois', serif; /* Use different font for brand */
+}
+.hi{
+    .nav-link:hover{
+        background-color: #ddd;
+        color: #8c0c0c;
+    }
+}
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 16px; /* Consistent font size for navigation links */
+    padding: 10px 15px; /* Add padding for better spacing */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f2f2f2;
+}
+
+.footer {
+    background-color: #8c0c0c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; /* Use consistent font family */
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        font-size: 16px; /* Adjusted font size for mobile view */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px; /* Adjusted font size for mobile view */
+    }
+}
+/* Add this to your header.css or a new sidebar.css file */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 1px 0 5px rgba(140,0,0,0.5);
+    padding: 15px;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateX(0);
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    color: #8c0c0c;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #8c0c0c;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  

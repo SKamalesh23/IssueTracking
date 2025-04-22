@@ -1,0 +1,94 @@
+/* body.css */
+
+.container-fluid {
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.jumbotron .display-3 {
+    font-size: 3rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+.jumbotron .lead {
+    font-size: 1.5rem;
+}
+
+#ff {
+    margin-top: 2rem;
+}
+
+#ff .btn {
+    margin: 0.5rem;
+}
+
+.feature {
+    margin: 2rem 0;
+}
+
+.feature .img-responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.display-4 {
+    font-size: 2.5 rem;
+    font-family: 'Secular One', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .jumbotron .display-3 {
+        font-size: 2.5rem;
+    }
+
+    .jumbotron .lead {
+        font-size: 1.2rem;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+}
+/* Assuming this is in body.css */
+.si{
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      
+      .image-container {
+        flex: 1;
+        /* background: url('./college1.jpg') no-repeat center center; */
+        background-size: cover;
+        height: 100%;
+      }
+      
+      .form-container {
+        flex: 1;
+        padding: 20px;
+        background-color: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .custom-modal {
+        min-height: 200px; /* Set your desired minimum height */
+    }
+    
+    .custom-modal .modal-body {
+        min-height: 100px; /* Set a minimum height for the body if needed */
+    }
+}

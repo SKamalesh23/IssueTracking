@@ -1,0 +1,37 @@
+/* loginModal.css */
+.abc {
+  .modal-dialog {
+    max-width: 400px; /* Set a maximum width for the modal */
+    margin: 1.75rem auto; /* Center the modal */
+  }
+  
+  .modal-content {
+    height: auto; /* Allow the content to determine the height */
+    max-height: 500px; /* Set a maximum height for the modal */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-body {
+    flex: 1 1 auto; /* Allow the body to grow and shrink */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  }
+  
+  .modal-header, .modal-footer {
+    flex-shrink: 0; /* Prevent shrinking of header and footer */
+  }
+  
+  .custom-card {
+    margin-bottom: 0; /* Ensure no extra margin at the bottom of the card */
+  }
+}
+
+.log {
+  /* Optional additional styling for the login form container */
+ 
+    a{
+      text-decoration: none;
+
+    }
+
+}

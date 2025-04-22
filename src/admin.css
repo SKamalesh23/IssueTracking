@@ -1,0 +1,117 @@
+/* src/AdminDashboard.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #8c0c0c;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color:  #8c0c0c;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+    background-color: white;
+    margin: 0px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 3px solid #333;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.admin-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.admin-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.admin-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.admin-content {
+    padding: 1em;
+}
+
+.admin-content .images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.admin-content .images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #8c0c0c;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width:500px) {
+    .admin-content .images img {
+        width: 100px;
+    }
+}

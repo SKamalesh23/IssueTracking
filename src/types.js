@@ -1,0 +1,6 @@
+// In actions/types.js
+
+// export const SUBMIT_ISSUE_REQUEST = 'SUBMIT_ISSUE_REQUEST';
+// export const SUBMIT_ISSUE_SUCCESS = 'SUBMIT_ISSUE_SUCCESS';
+// export const SUBMIT_ISSUE_FAILURE = 'SUBMIT_ISSUE_FAILURE';
+// export const SUBMIT_ISSUE = 'SUBMIT_ISSUE';

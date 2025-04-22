@@ -1,0 +1,46 @@
+.int {
+    background-image: url('./IMAGES/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #100404; /* Adjust text color for better readability */
+    padding: 20px;
+  }
+  
+  .int main {
+    background-color: #ffffff; /* Optional: Add a semi-transparent background to the main content */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .int section h2,
+  .int section h3{
+    color: #8c0c0c;
+  }
+  .int section p,
+  .int section ul {
+    margin-bottom: 20px;
+  }
+  
+  .int ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .footer {
+    background-color: #8c0c0c; /* Optional: Add a semi-transparent background to the footer */
+    color: #fff;
+    padding: 10px;
+    /* text-align: center; */
+  }
+  .bk{
+    background-image: url('./IMAGES/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #100404; /* Adjust text color for better readability */
+    padding: 20px;
+   p{
+    color: #000000;
+   }
+  }
