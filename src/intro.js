@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './styl.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -6,7 +6,6 @@ function Main() {
 
   return (
     <div className="int"><br/><br/><br/>
-      {/* <Header/>  */}
       <main class="mt-5">
         <section>
           <h2>Welcome to the Engineering College Issue Tracking System</h2>
