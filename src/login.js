@@ -74,7 +74,7 @@ const LoginForm = ({ handleClose }) => {
               <Card.Body>
                 <Form>
                   <Form.Group controlId="userId">
-                    <Form.Label style={{ fontWeight: 'bolder', color: 'black' }}>User ID</Form.Label>
+                    <Form.Label style={{ fontWeight: 'bolder', color: 'black' }}>User ID (user or admin)</Form.Label>
                     <Form.Control
                       type="text"
                       value={userId1}
@@ -87,7 +87,7 @@ const LoginForm = ({ handleClose }) => {
                   </Form.Group>
 
                   <Form.Group controlId="password" className="mt-3">
-                    <Form.Label style={{ fontWeight: 'bolder', color: 'black' }}>Password</Form.Label>
+                    <Form.Label style={{ fontWeight: 'bolder', color: 'black' }}>Password (1234 for user | 12345 for admin)</Form.Label>
                     <Form.Control
                       type="password"
                       value={password}

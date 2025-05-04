@@ -1,15 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './styl.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function Main() {
-//   function Footer1() {
-//     return (
-//       <footer style={{position:'fixed',bottom:0,marginRight:"10px"}}>
-//         <p>&copy; 2024 Engineering College. All rights reserved.</p>
-//       </footer>
-//     );
-//   }
+
   return (
     <div className="int"><br/><br/><br/>
       {/* <Header/>  */}
